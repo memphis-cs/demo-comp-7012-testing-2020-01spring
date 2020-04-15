@@ -11,11 +11,11 @@
 #
 
 one:
-  make: MyString
-  model: MyString
-  year: 1
+  make: Oldsmobile
+  model: Cutlass
+  year: 1980
 
 two:
-  make: MyString
-  model: MyString
-  year: 1
+  make: Chevrolet
+  model: Chevette
+  year: 1981

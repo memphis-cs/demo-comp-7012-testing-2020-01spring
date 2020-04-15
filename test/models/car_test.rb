@@ -12,7 +12,11 @@
 require 'test_helper'
 
 class CarTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+
+  test "all fixtures valid" do
+    cars.each do |car|
+      assert car.valid?
+    end
+  end
+
 end
